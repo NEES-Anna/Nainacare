@@ -1,0 +1,36 @@
+# Ignore Python cache & env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# Tests & docs (not needed in deploy)
+tests/
+docs/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flutter build artifacts
+app/build/
+app/.dart_tool/
+app/.packages
+app/.pub-cache/
+app/ios/Pods/
+app/android/.gradle/
+app/android/app/build/
+
+# Git files (not needed in deployment)
+.git/
+.gitignore
